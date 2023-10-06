@@ -1,0 +1,68 @@
+Big O Notation
+
+aka Time Complexity
+
+-The efficiency of your algorithm;
+
+-Used to describe runtime characteristics of our data structures and algorithms
+
+
+
+
+O(1)
+Constant time
+-Random access in array
+--Same amount of time, regardless of the number of elements -> Random Access Array
+
+
+
+
+
+O(n)
+Linear time
+-Delete value of a linked List
+--Adding Element increases runtime linearly -> Looping an Array / List
+
+
+
+
+O(log n)
+Logarithmic
+--When doubling the number of elements doesn't double the time (binary trees)  -> Search Algorithms
+
+
+
+
+O(n log n)
+Quasilinear
+--Every element has to be compared with every other element. Lots of comparisons. -> Sorting Algorithms
+
+
+
+
+O(n2)
+Quadratic
+--2,4,8,16,32,64 Increasing quadratically -> Nested loops
+
+
+
+O(branch^depth) -> 2^n
+Fibonacci Series
+-Recursion
+
+
+
+Multiply RunTimes:
+-SemiQuadratic
+--Nested for loops
+O(n * m)
+for (int n: arrayN){
+    for(int m: arrayM){
+        print(n + "," + n);
+    }
+}
+
+
+Used to compare RunTime Characteristics
+
+
